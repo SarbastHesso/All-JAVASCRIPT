@@ -51,7 +51,7 @@ projectsList.forEach((project, index )=> {
                 </div>
                 <h4>${project.title}</h4>
             </a>
-            <a class="github-link" href="https://github.com/SarbastHesso/All-projects/tree/main/JAVASCRIPT/${project.title}">
+            <a class="github-link" href="https://github.com/SarbastHesso/All-JAVASCRIPT/tree/main/${project.title}">
               <div class="img-wrapper">
                   <img src="./Octicons-mark-github.svg" alt=${project.title}>
               </div>
