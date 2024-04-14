@@ -46,15 +46,11 @@ projectsList.forEach((project, index )=> {
     let html = `
         <li class="project" id=${index}>
             <a class="web-link" href="./${project.title}">
-                <div class="img-wrapper">
-                    <img src="./go-to-web.svg" alt=${project.title}>
-                </div>
+                <span class="material-symbols-outlined">captive_portal</span>
                 <h4>${project.title}</h4>
             </a>
             <a class="github-link" href="https://github.com/SarbastHesso/All-JAVASCRIPT/tree/main/${project.title}">
-              <div class="img-wrapper">
-                  <img src="./Octicons-mark-github.svg" alt=${project.title}>
-              </div>
+              <i class="fa-brands fa-github"></i>
             </a>
         </li>
     `;
